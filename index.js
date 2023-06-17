@@ -10,7 +10,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new SocketServer(server, {
   cors: {
-    origin: "http://127.0.0.1:5173",
+    origin: "https://frontend-chat-socketio-nodejs.vercel.app/",
   },
 });
 
